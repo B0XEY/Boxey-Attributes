@@ -2,6 +2,9 @@
 ![Static Badge](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+> [!IMPORTANT]
+These are pretty much all made with the help of chat GPT when I was looking for a way to make the inspector look better in my [Unity-Planets](https://github.com/B0XEY/Unity-Planets) project.
+
 # Project Overview
 Welcome to the **Boxey-Attributes** for the Unity! This repository contains a collection of custom attributes designed to extend the functionality of the Unity game engine. These attributes aim to improve the workflow and enhance the development experience for Unity developers. By leveraging these attributes, developers can create more maintainable, readable, and efficient code and inspectors.
 
