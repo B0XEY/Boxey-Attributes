@@ -3,7 +3,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Boxey.Attributes {
+namespace BoxeyAttributes {
     [AttributeUsage(AttributeTargets.Method, Inherited = true, AllowMultiple = false)]
     public class ButtonAttribute : PropertyAttribute{
         public readonly string CustomLabel;

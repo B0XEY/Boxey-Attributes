@@ -1,9 +1,6 @@
-![Static Badge](https://img.shields.io/badge/Verson-2022.3.22f1-5300EB?style=for-the-badge&logo=Unity)
-![Static Badge](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Verson-2022.x.xxxx-5300EB?style=for-the-badge&logo=Unity)
+![Static Badge](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-> [!IMPORTANT]
-These are pretty much all made with the help of chat GPT when I was looking for a way to make the inspector look better in my [Unity-Planets](https://github.com/B0XEY/Unity-Planets) project.
 
 # Project Overview
 Welcome to the **Boxey-Attributes** for the Unity! This repository contains a collection of custom attributes designed to extend the functionality of the Unity game engine. These attributes aim to improve the workflow and enhance the development experience for Unity developers. By leveraging these attributes, developers can create more maintainable, readable, and efficient code and inspectors.
@@ -12,7 +9,7 @@ Welcome to the **Boxey-Attributes** for the Unity! This repository contains a co
 ### Button Attribute
 Adds a button to the inspector to call a function
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -25,7 +22,7 @@ public class Example : MonoBehaviour {
 ### Enum Buttons Attribute
 Turns enums into buttons you can click and change between
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -40,7 +37,7 @@ public class Example : MonoBehaviour {
 ### Foldable Inspector Attribute
 Allows you to fold and unfold the inspector for a scriptable object for easy editing
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -50,7 +47,7 @@ public class Example : MonoBehaviour {
 ### Label Attribute
 Allows you to change the label of a field or remove it when left blank.
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -61,7 +58,7 @@ public class Example : MonoBehaviour {
 ### Line Attribute
 Draws a line in the editor that the user can edit the color and thickness of.
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -74,7 +71,7 @@ public class Example : MonoBehaviour {
 ### On Changed Attribute
 Calls the function when the value is edited or changed
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -86,7 +83,7 @@ public class Example : MonoBehaviour {
 ### Required Attribute
 Make sure the value is set. Useful when you need to make sure the feild is set.
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -96,7 +93,7 @@ public class Example : MonoBehaviour {
 ### Show If Attribute
 Shows the field it is on when the bool you enter is true, hides the field when the bool is false.
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {
@@ -107,7 +104,7 @@ public class Example : MonoBehaviour {
 ### Show Only Attribute
 Useful when you want to show a value in the inspector but don't want to be able to edit it. Useful for debugging.
 ```c#
-using Boxey.Attributes;
+using BoxeyAttributes;
 using UnityEngine;
 
 public class Example : MonoBehaviour {

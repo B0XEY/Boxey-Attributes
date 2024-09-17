@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Boxey.Attributes {
+namespace BoxeyAttributes {
     public class ShowOnlyAttribute : PropertyAttribute{ }
 #if UNITY_EDITOR
     [CustomPropertyDrawer(typeof(ShowOnlyAttribute))]

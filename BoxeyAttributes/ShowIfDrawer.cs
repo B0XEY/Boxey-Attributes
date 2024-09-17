@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Boxey.Attributes {
+namespace BoxeyAttributes {
     [AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = true)]
     public class ShowIfAttribute : PropertyAttribute{
         public readonly string BoolName;
